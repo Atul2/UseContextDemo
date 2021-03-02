@@ -13,6 +13,7 @@ export default function FunctionalContextComponent() {
     }
     return (
         <>
+            <button onClick={toggleTheme} >Toggle Theme</button>
             <div style={themeStyles}>
                 Functional Context Component Theme
             </div>
